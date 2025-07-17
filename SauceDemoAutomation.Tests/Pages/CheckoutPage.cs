@@ -9,7 +9,7 @@ namespace SauceDemoAutomation.Pages
         private readonly IWebDriver driver;
         private readonly WebDriverWait wait;
 
-        // Locators
+        
         private readonly By firstNameInput = By.Id("first-name");
         private readonly By lastNameInput = By.Id("last-name");
         private readonly By postalCodeInput = By.Id("postal-code");

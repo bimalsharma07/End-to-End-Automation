@@ -19,10 +19,10 @@ namespace SauceDemoAutomation.Tests
         {
             try
             {
-                // Call base setup to initialize driver and navigate to website
+                
                 base.SetUp();
                 
-                // Initialize all page objects
+                
                 loginPage = new LoginPage(driver);
                 inventoryPage = new InventoryPage(driver);
                 cartPage = new CartPage(driver);

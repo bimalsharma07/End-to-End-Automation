@@ -6,11 +6,11 @@ namespace SauceDemoAutomation.Pages
     {
         private readonly IWebDriver driver;
 
-        // Locators
+        
         private readonly By addToCartButtons = By.CssSelector("[data-test^='add-to-cart']");
         private readonly By cartLink = By.CssSelector(".shopping_cart_link");
         
-        // Specific product locators
+        
         private readonly By firstProductButton = By.Id("add-to-cart-sauce-labs-backpack");
         private readonly By secondProductButton = By.Id("add-to-cart-sauce-labs-fleece-jacket");
 
@@ -32,7 +32,6 @@ namespace SauceDemoAutomation.Pages
             foreach (var button in buttons)
             {
                 button.Click();
-                // Adding a small wait to make the test more visible
                 System.Threading.Thread.Sleep(500);
             }
             GoToCart();
