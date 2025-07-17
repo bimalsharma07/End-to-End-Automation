@@ -16,11 +16,11 @@ namespace SauceDemoAutomation.Tests
         {
             try
             {
-                // Initialize WebDriver
+               
                 driver = WebDriverFactory.CreateDriver();
                 wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
                 
-                // Navigate to the website
+                
                 driver.Navigate().GoToUrl("https://www.saucedemo.com/");
             }
             catch (Exception ex)

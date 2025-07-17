@@ -9,7 +9,7 @@ namespace SauceDemoAutomation.Pages
         private readonly IWebDriver driver;
         private readonly WebDriverWait wait;
 
-        // Locators
+        
         private readonly By checkoutButton = By.Id("checkout");
         private readonly By cartTitle = By.ClassName("title");
         private readonly By cartItems = By.ClassName("cart_item");
