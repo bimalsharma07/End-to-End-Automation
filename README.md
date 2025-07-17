@@ -53,6 +53,7 @@ SauceDemoAutomation.Tests/
 - [Chrome browser](https://www.google.com/chrome/)
 - [Chrome WebDriver](https://chromedriver.chromium.org/) (Ensure it matches your Chrome version)
 
----
+---![ezgif-6546aff36667d3](https://github.com/user-attachments/assets/cd8add54-01c8-481c-bbc8-7e90409d4832)
+
 
 **Author:** [bimalsharma07](https://github.com/bimalsharma07)
